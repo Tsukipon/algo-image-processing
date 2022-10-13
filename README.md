@@ -1,2 +1,1 @@
-# algo-image-processing
-Algorithms about image processing
+# Groupe de goix_a 944588

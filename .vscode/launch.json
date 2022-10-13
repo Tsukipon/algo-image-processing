@@ -1,0 +1,70 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Step 1",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Step_01/main.py",
+      "args": [
+        "--image",
+        "images/lion.jpg"
+      ]
+    },
+    {
+      "name": "Step 2",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Step_02/main.py",
+      "args": [
+        "--image",
+        "images/lion.jpg",
+        "--blur",
+        "gaussian",
+        "--kernel",
+        "3"
+      ]
+    },
+    {
+      "name": "Step 3",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Step_03/main.py",
+      "args": [
+        "--image",
+        "images/licorne.png",
+        "--speed",
+        "10"
+      ]
+    },
+    {
+      "name": "Step 4",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Step_04/main.py",
+      "args": [
+        "--image",
+        "images/licorne.png",
+        "--speed",
+        "10"
+      ]
+    },
+    {
+      "name": "Step 5",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Step_05/main.py",
+      "args": [
+        "--image",
+        "images/lion.jpg",
+        "--speed",
+        "10",
+        "--algorithm",
+        "clustering"
+      ]
+    }
+  ]
+}
